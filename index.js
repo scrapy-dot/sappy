@@ -5,7 +5,7 @@ const { MongoClient } = require('mongodb');
 const path = require('path');
 // Create an Express app
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 //36P0wCQRW8Xkci9n
 //teamsnapchatinorg
